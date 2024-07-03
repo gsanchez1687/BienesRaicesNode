@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Proyecto de Bienes y Raices en Nodejs v20",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": " node index.js"
+    "start": " node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "MVC",
