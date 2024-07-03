@@ -13,6 +13,11 @@ Este paquete lo que hace es escuchar los cambios,se le agregar el -D porque solo
 npm install -D nodemon
 ```
 
+# instalar una template engine
+Existen muchas otras, pero pug esta mas moderna.
+```
+npm install pug
+```
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gsanchez1687/)
