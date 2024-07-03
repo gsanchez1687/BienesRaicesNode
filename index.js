@@ -1,21 +1,14 @@
 //crear servidor con express
 import express from 'express';
+import usuarioRoutes from './routes/usuario.routes.js';
 const app = express();
+
+
+app.get('/', usuarioRoutes);
+app.get('/nosotros', usuarioRoutes);
+app.get('/contacto', usuarioRoutes);
+
 const port = 3000;
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
-app.get('/nosotros', (req, res) => {
-    res.send('Nosotros');
-});
-
-app.get('/contacto', (req, res) => {
-    res.json({msj: 'contacto'});
-});
-
-
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
     }
